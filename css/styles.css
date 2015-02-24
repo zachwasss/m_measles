@@ -2,24 +2,21 @@
 /*author: Zach Wasser*/
 /* I want the body background color to be off-white (still need to find the right shade); h1/h2 text to either be dark grey or orange and then the background is either dark grey/orange depending on text color; links will be blue*/
 
-#top{font-family: Rockwell, "Courier Bold", Georgia, "Times New Roman", serif;
+.header{
+	font-family: Rockwell, "Courier Bold", Georgia, "Times New Roman", serif;
 	 border-color: #FF8808;
-	 background-color:#152323;}
+	 background-color:#152323;
+	 color:#FF8808;
+	 text-align:center;
+	 border-width: 200px;
+	 border-height:200px;
+	} 
 
-<link href='http://fonts.googleapis.com/css?family=Roboto|Oxygen' rel='stylesheet' type='text/css'>
-
-h1{
-	color:#FF8808;
-	font-weight:bold;
-	font-size: 60px;
+#nav_bar{
+	font-family: Rockwell, "Courier Bold", Georgia, "Times New Roman", serif;
 	text-align:center;
-}
+	}
 
-h2{
-	color:#FF8808;
-	font-size:45px;
-	text-align:center;
-}
 
 p{
 	color: #333;
