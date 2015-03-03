@@ -1,25 +1,26 @@
 /* website: eo ipso v.1 */
 /*author: Zach Wasser*/
-/* I want the body background color to be off-white (still need to find the right shade); h1/h2 text to either be dark grey or orange and then the background is either dark grey/orange depending on text color; links will be blue*/
+/* I want the body background color to be like parchment paper, but not super yellowed -- that will give the page a kind of authority -- like a legal document; h1/h2 text to either be dark grey or orange and then the background is either dark grey/orange depending on text color; links will be light blue*/
 
 body{
-	background-color:#FFFBE5;
+	background-color:#F7FCFF;
 }
 
 
 .header{
 	font-family: Rockwell, "Courier Bold", Georgia, "Times New Roman", serif;
-	 border-color: #FF8808;
 	 background-color:#152323;
 	 color:#FF8808;
 	 text-align:center;
-	 width: 100%;
-	height:100px;
-	} 
+	 width: 85%;
+	 height:150px;
+	margin:0 auto;
+	font-size:200%;
+	padding: 6px 12px 6px 12px;
+} 
 
 #nav_bar{
 	font-family: Rockwell, "Courier Bold", Georgia, "Times New Roman", serif;
-
 	}
 
 .box{
@@ -29,29 +30,61 @@ body{
 	padding:5px;
 	background-color:#FF8808;
 	text-align:center;
+	list-style:none;
+	font-weight:bold;
+}
 
-	}
+.content{
+	width:90%;
+	margin:0 auto;
+	font-family: Rockwell, "Courier Bold", Georgia, "Times New Roman", serif;
+}
+
+.featured{
+	width:80%;
+	float:left;
+}
 
 .video{
 	color: #333;
 	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	background-color:##f8f7f3;
 	padding:0px;
-	background-color:#A7F2FF;
+	margin:0px;
 	}
 
-a:link{
-	color:#0088E8;
-	}
+
+.video #measles {
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+}
 
 .timeline{
-	text-align:right;
-	position: fixed;
+	font-family: Rockwell, "Courier Bold", Georgia, "Times New Roman", serif;
+	text-align:left;
+	float:right;
 	top:250px;
-	right:0px;
-	margin:0px;
-	padding:5px;
+	right:10px;
+	margin:40px;
+	padding:20px;
 	background-color:#152323;
 	color:white;
+	line-height:1.8em;
 }
+
+.timeline li{
+	list-style:none;
+}
+
+#summary{
+	position:relative;
+}
+
+.podcast{
+	text-align:left;
+	float:left;
+}
+
 
 
