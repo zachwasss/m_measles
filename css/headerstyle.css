@@ -1,0 +1,30 @@
+/* website: maryann_measles_timeline2.html */
+/*author: Zach Wasser*/
+
+.featured{
+	width:90%;
+	margin:5px;
+}
+
+.header{
+	width:75%;
+	float:left;
+}
+
+.jumbotron h1 {
+	font-family:Rockwell, "Courier Bold", Georgia, "Times New Roman", serif;
+}
+
+.background p{
+	font-size:1.2em;
+}
+
+.background p:first-letter{
+	font-size:200%;
+}
+
+.timeline{
+	float:left;
+	width:50%;
+	padding:50px 0px 0px 50px;
+}
