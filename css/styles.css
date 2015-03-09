@@ -126,12 +126,25 @@ color: #892EE8;
 	text-align:left;
 }
 
+
+.copyright li{
+	text-align:left;
+	font-weight:lighter;
+	list-style:none;
+	display:inline;
+	background-color:white;
+	float:left;
+	padding-bottom:20px;
+		margin: -5px 0px 20px -50px;
+
+}
+
 #footer{
 	width: 100%;
 	clear: left;
-	text-decoration:italic;
-	float: right;
 	text-align:right;
+	float:left;
+	width:100%;
 }
 
 #footer li{
@@ -140,9 +153,6 @@ color: #892EE8;
 	border: 1px solid ##FFC408;
 	border-radius:5px;
 	padding: 5px 5px 5px 30px;
-	background-color:#f2f2f2;
-	background-repeat:no-repeat;
-	background-position:8px 9px;
 	margin-bottom: 10px;
 }
 
@@ -194,6 +204,7 @@ color: #green;
 input.footertab:focus {
 color: #665544;
 }
+
 
 
 
