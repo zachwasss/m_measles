@@ -10,13 +10,16 @@ body{
 .header{
 	font-family: Rockwell, "Courier Bold", Georgia, "Times New Roman", serif;
 	 background-color:#152323;
+	 background-color:#231521;
 	 color:#FF8808;
-	 text-align:center;
-	 width: 85%;
-	 height:150px;
+	 color:#FFC408;
+	 text-align:left;
+	font-style:oblique;
+	 width: 95%;
+	 height:125px;
 	margin:0 auto;
 	font-size:200%;
-	padding: 6px 12px 6px 12px;
+	padding: 6px 20px 6px 12px;
 } 
 
 #nav_bar{
@@ -29,9 +32,51 @@ body{
 	margin:5px;
 	padding:5px;
 	background-color:#FF8808;
+	background-color: #FFC408;;
 	text-align:center;
 	list-style:none;
 	font-weight:bold;
+	color:#231521;
+}
+
+.box:link {
+color: blue;
+text-decoration: none;
+}
+
+.box:visited {
+color: gray;
+}
+
+.box:hover {
+color: #66DCFF;
+text-decoration: underline;
+}
+
+.box:active {
+color: #892EE8;
+}
+
+input {
+	padding: 6px 12px 6px 12px;
+	border: 1px solid #665544;
+	color: #ffffff;
+}
+
+input.box:hover {
+background-color: #665544;
+}
+
+input.box:active {
+background-color: blue;
+}
+
+input.box {
+color: #cccccc;
+}
+
+input.box:focus {
+color: #665544;
 }
 
 .content{
@@ -43,11 +88,12 @@ body{
 .featured{
 	width:80%;
 	float:left;
+	font-family: "Courier New," Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 .video{
 	color: #333;
-	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	font-family: "Courier New," Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	background-color:##f8f7f3;
 	padding:0px;
 	margin:0px;
@@ -67,10 +113,13 @@ body{
 	top:250px;
 	right:10px;
 	margin:40px;
-	padding:20px;
+	padding:20px 20px 300px 20px;
 	background-color:#152323;
 	color:white;
 	line-height:1.8em;
+	border-style: inset;
+	border-color:#FF8808; 
+	border-color: #FFC408;
 }
 
 .timeline li{
@@ -86,5 +135,60 @@ body{
 	float:left;
 }
 
+#footer{
+	float:left;
 
+}
+#footer li{
+	list-style:none;
+	display:inline;
+	border: 1px solid ##FFC408;
+	border-radius:5px;
+	padding: 5px 5px 5px 30px;
+	background-color:#f2f2f2;
+	background-repeat:no-repeat;
+	background-position:8px 9px;
+	margin-bottom: 10px;
+	text-align:left;
+}
+
+.footertab:link {
+color: blue;
+text-decoration: none;
+}
+
+.footertab:visited {
+color: gray;
+}
+
+.footertab:hover {
+color: #66DCFF;
+text-decoration: underline;
+}
+
+.footertab:active {
+color: #892EE8;
+}
+
+input {
+	padding: 6px 12px 6px 12px;
+	border: 1px solid #665544;
+	color: #ffffff;
+}
+
+input.footertab:hover {
+background-color: #665544;
+}
+
+input.footertab:active {
+background-color: blue;
+}
+
+input.footertab {
+color: #cccccc;
+}
+
+input.footertab:focus {
+color: #665544;
+}
 
